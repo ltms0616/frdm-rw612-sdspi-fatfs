@@ -2,6 +2,8 @@
 
 MCUXpresso SDK 專案：FRDM-RW612 以 Flexcomm1 SPI 連接 microSD（SPI mode），使用 FatFs。
 
+> **Demo，僅供參考，非正式產品。** 本程式用於示範做法，未經量產等級的驗證，也不提供技術支援或維護承諾。實機只測過一張 32 GB SDHC 卡與 RAM 執行的 debug build，用於產品前請自行驗證。
+
 | 專案 | 內容 |
 |---|---|
 | [frdmrw612_sdspi_fatfs](frdmrw612_sdspi_fatfs/) | 裸機版，含 SD-SPI 驅動、FatFs 接合層、測試程式。接線與除錯方法見其 readme |
@@ -23,3 +25,9 @@ MCUXpresso SDK 專案：FRDM-RW612 以 Flexcomm1 SPI 連接 microSD（SPI mode�
 cmake --preset flash_debug
 cmake --build --preset flash_debug
 ```
+
+## 授權
+
+本 repo 自行撰寫的程式以 [BSD-3-Clause](LICENSE) 授權，按現狀提供，不附任何擔保。
+
+第三方檔案維持各自檔頭的授權：NXP 板級檔與 SVD 為 BSD-3-Clause，`FreeRTOSConfigBoard.h` 為 MIT，`ffconf.h` 為 FatFs 授權。
