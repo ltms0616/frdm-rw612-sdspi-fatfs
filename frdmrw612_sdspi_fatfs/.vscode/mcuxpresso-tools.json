@@ -1,0 +1,16 @@
+{
+  "version": "25.3",
+  "toolchainPath": "${userHome}/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "projectType": "sdk-v2-freestanding",
+  "projectName": "frdmrw612_sdspi_fatfs",
+  "sdk": {
+    "path": "c:\\Workspace\\MCU_RTOS\\RW612_SDK\\SDK_26_09_00_FRDM-RW612",
+    "version": "26.9.0",
+    "boardId": "frdmrw612",
+    "deviceId": "RW612",
+    "coreId": "cm33"
+  }
+}

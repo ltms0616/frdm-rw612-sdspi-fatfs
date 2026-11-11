@@ -1,0 +1,18 @@
+# Only the two SD-SPI projects are versioned; the SDKs, zips and other projects stay local.
+/*
+!/.gitignore
+!/README.md
+!/frdmrw612_sdspi_fatfs/
+!/frdmrw612_sdspi_fatfs_freertos/
+
+# Build output
+debug/
+release/
+flash_debug/
+flash_release/
+
+# Junction to the local SDK
+__repo__
+
+# Machine-specific tool paths; see mcux_include.json.template
+mcux_include.json
