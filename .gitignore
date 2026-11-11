@@ -3,6 +3,7 @@
 !/.gitignore
 !/README.md
 !/LICENSE
+!/docs/
 !/frdmrw612_sdspi_fatfs/
 !/frdmrw612_sdspi_fatfs_freertos/
 
